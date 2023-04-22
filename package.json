@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "chalk": "5.2.0"
+  },
+  "name": "bibliotecas",
+  "version": "1.0.0",
+  "description": "nenhuma",
+  "main": "index.js",
+  "type": "module",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cli": "node src/cli.js arquivos/texto.md",
+    "cli:valida": "node src/cli.js arquivos/texto.md --valida"
+  },
+  "author": "Lucas Velloso",
+  "license": "UNLICENSED"
+}
